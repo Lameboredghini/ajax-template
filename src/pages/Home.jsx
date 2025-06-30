@@ -131,6 +131,13 @@ function Home() {
             onChange={handleChange}
           ></textarea>
 
+<label>📧 What do you think of Divyam?</label>
+          <textarea
+            name="divyamThoughts"
+            placeholder="Again... Be honest — but not too honest 😉"
+            onChange={handleChange}
+          ></textarea>
+
           <label>🎨 Pick your hobbies:</label>
           <div className="checkbox-group">
             {['Gaming', 'Cooking', 'Reading', 'Coding', 'Meme-making'].map(
